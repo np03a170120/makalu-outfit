@@ -58,7 +58,8 @@
                                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                                     <ul class="navbar-nav">
                                         <li class="nav-item active">
-                                            <a classs="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                            <a classs="nav-link" href="#">Home <span
+                                                    class="sr-only">(current)</span></a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Men</a>

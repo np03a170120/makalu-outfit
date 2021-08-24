@@ -9,10 +9,9 @@
                 <li><a href="#"><i class="fab fa-instagram"></i></a></li>
             </ul>
             <div class="ctc">
-                <a href="#">Call Now</a>
-                <a href="#">Send Email</a>
+                <a href="#"><i class="fas fa-mobile-alt"></i>Call Now</a>
+                <a href="#"><i class="fas fa-paper-plane"></i>Send Email</a>
             </div>
-
         </div>
     </footer>
     <script src="./js/jquery-3.5.1.js"></script>
