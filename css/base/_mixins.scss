@@ -1,0 +1,20 @@
+@mixin button {
+    background-color: #be5054;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    color: white;
+    letter-spacing: 0.2rem;
+    font-weight: 100;
+    margin: 0.5rem 0;
+    transition: 0.2s linear all;
+    &:hover {
+        background-color: #974144;
+        color: whitesmoke;
+    }
+}
+
+@mixin show-all-btn {
+    display: inline-block;
+    color: #818181;
+    letter-spacing: 0.1rem;
+}

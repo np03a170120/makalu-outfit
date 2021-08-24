@@ -1,0 +1,348 @@
+@import "./base/globals";
+@import "./base/mixins";
+@import "./base/variables";
+// HEADER
+.header-top {
+    font-size: $small-font;
+    color: $paragraph-color;
+    padding: 0.5rem;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+.track-order {
+    text-align: right;
+    a {
+        color: $primary-orange;
+    }
+}
+
+.ht-contact {
+    li {
+        margin-right: 2rem;
+    }
+    i {
+        margin-right: 0.5rem;
+    }
+}
+
+.social-links {
+    justify-content: flex-end;
+    li {
+        margin-right: 1.5rem;
+    }
+}
+
+.track-order {
+    i {
+        margin-right: 0.5rem;
+    }
+}
+
+.logo {
+    img {
+        height: 8rem;
+        width: 7rem;
+    }
+}
+
+.navigation {
+    .navbar-collapse {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        justify-content: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.8rem;
+        padding-left: 0.8rem;
+    }
+    .navbar-light .navbar-nav .nav-link:focus,
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: $primary-orange;
+    }
+    .dropdown-menu {
+        border: 0px solid rgba(0, 0, 0, 0.15);
+        background-color: #f2f2f2;
+        border-radius: 0;
+    }
+    .dropdown-item {
+        color: #b7b3b3;
+        font-weight: 300;
+    }
+    .dropdown-item:focus,
+    .dropdown-item:hover {
+        color: white;
+        text-decoration: none;
+        background-color: $primary-orange;
+    }
+}
+
+.shop-feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li {
+        padding: 0 1.2rem;
+        font-size: 1.3rem;
+        color: $primary-orange;
+    }
+}
+
+.welcome-text {
+    text-align: center;
+    img {
+        height: 3rem;
+        width: 13rem;
+    }
+}
+
+.title-brand {
+    padding: 1.3rem 0;
+    text-align: center;
+    h1 {
+        text-transform: uppercase;
+        letter-spacing: 0.8rem;
+        color: $primary-orange;
+    }
+}
+
+.about-text {
+    text-align: center;
+    font-size: $small-font;
+    padding: 0 7rem;
+}
+
+.learn-more {
+    display: flex;
+    justify-content: center;
+    a {
+        @include button;
+    }
+}
+
+// BANNER
+.main-banner-single {
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+// CATEGORIES
+.ms-image {
+    text-align: center;
+    img {
+        width: 11rem;
+        height: 11rem;
+    }
+}
+
+.ms-title {
+    padding: 1rem 0;
+    h5 {
+        text-align: center;
+        font-weight: 400;
+    }
+}
+
+.mc-single {
+    margin-top: 2rem;
+    &:hover {
+        .ms-image img {
+            margin-top: -10px;
+        }
+        .ms-title {
+            a {
+                color: $primary-orange;
+            }
+        }
+    }
+}
+
+.ms-image img {
+    transition: 0.2s linear;
+}
+
+.sec-title {
+    a {
+        @include show-all-btn;
+    }
+}
+
+// MAIN_CATEGORY
+.show-all {
+    a {
+        @include show-all-btn;
+    }
+}
+
+// MAIN-PRODUCT-ON-SALE
+.mpos-image {
+    img {
+        height: 30rem;
+        width: 30rem;
+    }
+}
+
+.mpos-desc {
+    padding: 0.5rem 0;
+    p {
+        text-align: justify;
+        font-size: $small-font;
+    }
+}
+
+.mposd-title {
+    h6 {
+        text-transform: uppercase;
+        color: $heading-color;
+        font-weight: 800;
+        letter-spacing: 0.1rem;
+        font-size: $medium-font;
+    }
+}
+
+.mpos-single {
+    .shop-feature {
+        justify-content: left;
+        li {
+            padding: 0;
+            padding-right: 1.2rem;
+        }
+    }
+    .learn-more {
+        justify-content: left;
+        a {
+            padding: 0.5rem 4rem;
+        }
+    }
+    .slick-initialized .slick-slide {
+        display: flex;
+    }
+}
+
+.mpos-single {
+    position: relative;
+    .slick-arrow {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        font-size: 2rem;
+        z-index: 99;
+        color: $primary-orange;
+        display: inline-block;
+        height: 1rem;
+        width: 4rem;
+        line-height: 40px;
+        text-align: center;
+        cursor: pointer;
+        &:hover {
+            color: $seconday-red;
+        }
+    }
+    i.fas.fa-long-arrow-alt-left.slick-arrow {
+        margin-right: 3rem;
+        color: $paragraph-color;
+        animation: 0.5s linear;
+        &:hover {
+            color: $primary-orange;
+        }
+    }
+}
+
+.main-new-arrival {
+    .mpos-image {
+        position: relative;
+        // img {
+        //     // border-radius: 50%;
+        // }
+        .mpos-fly {
+            img {
+                position: absolute;
+                bottom: 20%;
+                right: -20%;
+                transform: rotate(350deg);
+                height: 30rem;
+                width: 30rem;
+            }
+        }
+    }
+}
+
+// .main-new-arrival {
+//      :hover {
+//         transition: 2s linear;
+//         .mpos-fly {
+//             transform: scale(1.5);
+//         }
+//     }
+// }
+// DESIGN
+.md-img {
+    position: relative;
+    img {
+        height: auto;
+        width: 70%;
+        object-fit: cover;
+    }
+}
+
+.md-img-omph {
+    img {
+        height: 10rem;
+        width: 35rem;
+    }
+}
+
+.main-design {
+    position: relative;
+    .md-img-omph {
+        position: absolute;
+        bottom: 18rem;
+        right: 25rem;
+        z-index: -1;
+    }
+}
+
+.md-text {
+    p {
+        width: 17%;
+        text-align: justify;
+        position: absolute;
+        bottom: 30%;
+        right: 20%;
+    }
+}
+
+footer {
+    text-align: center;
+    background: $primary-orange;
+    .mf-brand {
+        h2 {
+            color: white;
+            letter-spacing: 1rem;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.main-footer {
+    .social-links {
+        margin: 3rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: $medium-font;
+    }
+}
+
+.ctc {
+    margin: 2rem 0;
+    a {
+        padding: 1rem 2rem;
+        background: #000000;
+    }
+}
