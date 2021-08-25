@@ -317,6 +317,7 @@
     }
 }
 
+// FOOTER-MAIN
 footer {
     text-align: center;
     background: $primary-orange;
@@ -343,6 +344,29 @@ footer {
     margin: 2rem 0;
     a {
         padding: 1rem 3rem;
-        background: #ffffff;
+        background: #1a1919;
+        i {
+            margin-right: 1rem;
+        }
+    }
+}
+
+.footer-bottom {
+    background: whitesmoke;
+}
+
+.fb-company {
+    padding: 1rem 0;
+    text-align: center;
+    a {
+        text-transform: uppercase;
+        color: rgb(77, 77, 77);
+        font-weight: 800;
+        letter-spacing: 0.2rem;
+        span {
+            font-weight: 300;
+            margin-right: 0.5rem;
+            letter-spacing: 0;
+        }
     }
 }
