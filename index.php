@@ -326,7 +326,7 @@
 <!--MAIN-TRENDING-->
 <section class="main-trending sec-padding">
     <div class="container">
-        <div class="sec-title j-c">
+        <div class="sec-title j-c-s">
             <h2>Trending Products</h2>
             <h3>Trends</h3>
             <div class="show-all">

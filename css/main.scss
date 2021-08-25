@@ -383,6 +383,9 @@ footer {
     text-align: center;
     display: none;
     transition: 0.3s linear;
+    z-index: 999999;
+    background: white;
+    padding: 1rem 1.5rem;
 }
 
 .input-group-text {
@@ -423,12 +426,11 @@ footer {
             padding: 0.4rem 1.4rem;
             align-items: center;
             justify-content: center;
-            border: 1px solid #ced4da;
+            border: 1px solid #3a3a3a;
             font-size: $small-font;
             outline: none;
             outline: 0;
             box-shadow: none;
-            border: 0 !important;
         }
         label {
             font-size: $small-font;
@@ -460,7 +462,7 @@ footer {
         }
     }
     .btn-delete {
-        background-color: #fafafa;
+        background-color: #ffffff;
         outline: none;
         border: none;
         color: $paragraph-color;

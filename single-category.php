@@ -3,16 +3,18 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-2 test">
-                <div class="sec-title-inner">
-                    <h2>Men</h2>
-                </div>
-                <ul class="wear-types">
-                    <li><a href="#">Jackets</a></li>
-                    <li><a href="#">Fleece</a></li>
-                    <li><a href="#">bottoms</a></li>
-                    <li><a href="#">footwear</a></li>
+                <div class="test">
+                    <div class="sec-title-inner ">
+                        <h2>Men</h2>
+                    </div>
+                    <ul class="wear-types ">
+                        <li><a href="#">Jackets</a></li>
+                        <li><a href="#">Fleece</a></li>
+                        <li><a href="#">bottoms</a></li>
+                        <li><a href="#">footwear</a></li>
 
-                </ul>
+                    </ul>
+                </div>
             </div>
             <div class="col-lg-10">
                 <div class="row">

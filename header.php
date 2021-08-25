@@ -101,23 +101,11 @@
                             <div class="input-group">
                                 <input type="search" class="form-control" placeholder="Search" aria-label="Search"
                                     aria-describedby="search-addon" />
-                                <span class="input-group-text border-0" id="search-addon">
-                                    <!-- <i class="fas fa-search"></i>   -->
-                                </span>
+
                             </div>
                             <div class="search-filter">
-                                <!-- <span>Advance Search</span> -->
-                                <!-- <div class="select-category">
-                                    <label class="custom-select">
-                                        <select name="sample">
-                                            <option value="1">one</option>
-                                            <option value="2">two</option>
-                                            <option value="3">three</option>
-                                        </select>
-                                    </label>
-                                </div> -->
                                 <div class="row">
-                                    <div class="col-lg-3">
+                                    <div class="col-lg-3 mr">
                                         <form action="/action_page.php" class="pt-3">
                                             <label for="cars">Accessories</label>
                                             <select id="cars" name="cars">

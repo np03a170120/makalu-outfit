@@ -65,7 +65,7 @@ p {
   padding: 0 2rem;
   position: -webkit-sticky;
   position: sticky;
-  top: 3rem;
+  top: 0;
 }
 
 .j-c {
@@ -239,6 +239,10 @@ p {
   top: 1.25rem;
   opacity: 10%;
   font-size: 2.5rem;
+}
+
+.mr {
+  margin-right: 2rem;
 }
 
 .header-top {
@@ -653,6 +657,9 @@ footer .mf-brand h2 {
   display: none;
   -webkit-transition: 0.3s linear;
   transition: 0.3s linear;
+  z-index: 999999;
+  background: white;
+  padding: 1rem 1.5rem;
 }
 
 .input-group-text {
@@ -706,13 +713,12 @@ footer .mf-brand h2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border: 1px solid #ced4da;
+  border: 1px solid #3a3a3a;
   font-size: 0.875rem;
   outline: none;
   outline: 0;
   -webkit-box-shadow: none;
           box-shadow: none;
-  border: 0 !important;
 }
 
 .search-filter form label {
@@ -746,7 +752,7 @@ footer .mf-brand h2 {
 }
 
 .submit-btns .btn-delete {
-  background-color: #fafafa;
+  background-color: #ffffff;
   outline: none;
   border: none;
   color: #b7b3b3;
