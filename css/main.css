@@ -61,6 +61,13 @@ p {
           align-items: center;
 }
 
+.test {
+  padding: 0 2rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 3rem;
+}
+
 .j-c {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -197,6 +204,41 @@ p {
   width: 12rem;
   -webkit-transition: 0.2s linear;
   transition: 0.2s linear;
+}
+
+.sec-title-inner {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.sec-title-inner h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.3rem;
+  position: relative;
+  display: inline-block;
+}
+
+.sec-title-inner h2::after {
+  content: "";
+  width: 15%;
+  background-color: #db6f15;
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  left: 0;
+  margin-top: 0.1rem;
+}
+
+.sec-title-inner h3 {
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1rem;
+  color: #818181;
+  position: absolute;
+  top: 1.25rem;
+  opacity: 10%;
+  font-size: 2.5rem;
 }
 
 .header-top {
@@ -597,5 +639,138 @@ footer .mf-brand h2 {
   font-weight: 300;
   margin-right: 0.5rem;
   letter-spacing: 0;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+#myDIV {
+  position: absolute;
+  top: 6rem;
+  width: 90%;
+  text-align: center;
+  display: none;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.input-group-text {
+  background-color: #fafafa;
+}
+
+.header-bottom {
+  padding: 1rem;
+}
+
+.header-bottom .input-group > .custom-select:not(:last-child),
+.header-bottom .input-group > .form-control:not(:last-child) {
+  font-size: 0.875rem !important;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.search-filter {
+  text-align: left;
+}
+
+.search-filter input {
+  outline: none;
+  border: none;
+  font-size: 0.875rem;
+}
+
+.search-filter span {
+  padding-top: 0.8rem;
+  display: block;
+  padding-bottom: 0.4rem;
+  font-size: 0.875rem;
+  color: #b7b3b3;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.search-filter form {
+  padding: 0.4rem 0rem;
+}
+
+.search-filter form select {
+  word-wrap: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.4rem 1.4rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid #ced4da;
+  font-size: 0.875rem;
+  outline: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 0 !important;
+}
+
+.search-filter form label {
+  font-size: 0.875rem;
+  color: #b7b3b3;
+}
+
+.form-control {
+  border-radius: 0rem;
+}
+
+.submit-btns button {
+  margin-top: 1.5rem;
+  margin-right: 0.6rem;
+}
+
+.submit-btns .btn-search {
+  background-color: #db6f15;
+  outline: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  letter-spacing: 0.2rem;
+  font-weight: 100;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+.submit-btns .btn-search:hover {
+  background-color: #a1510f;
+}
+
+.submit-btns .btn-delete {
+  background-color: #fafafa;
+  outline: none;
+  border: none;
+  color: #b7b3b3;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  letter-spacing: 0.2rem;
+  font-weight: 100;
+}
+
+.submit-btns .btn-delete:hover {
+  color: #a10f0f;
+}
+
+.wear-types {
+  padding: 0 32%;
+}
+
+.wear-types li {
+  padding: 0.4rem 0;
+  text-transform: uppercase;
+  color: #b7b3b3;
+}
+
+.wear-types li:hover {
+  color: #db6f15;
 }
 /*# sourceMappingURL=main.css.map */

@@ -42,12 +42,12 @@
             </div>
             <div class="header-bottom">
                 <div class="row">
-                    <div class="col-lg-3  j-c-c">
+                    <div class="col-lg-2 j-c-c">
                         <div class="logo">
                             <img src="./images/logo.png" alt="">
                         </div>
                     </div>
-                    <div class="col-lg-6 j-c-c">
+                    <div class="col-lg-7 j-c-c">
                         <div class="navigation">
                             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                                 <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -57,12 +57,15 @@
                                 </button>
                                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                                     <ul class="navbar-nav">
-                                        <li class="nav-item active">
+                                        <!-- <li class="nav-item active">
                                             <a classs="nav-link" href="#">Home <span
                                                     class="sr-only">(current)</span></a>
+                                        </li> -->
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="index.php">Home</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Men</a>
+                                            <a class="nav-link" href="single-category.php">Men</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Women</a>
@@ -93,11 +96,86 @@
                         </div>
 
                     </div>
-                    <div class="col-lg-3 j-c-c">
+                    <div class="col-lg-3 j-c-c pos-rel">
+                        <div id="myDIV">
+                            <div class="input-group">
+                                <input type="search" class="form-control" placeholder="Search" aria-label="Search"
+                                    aria-describedby="search-addon" />
+                                <span class="input-group-text border-0" id="search-addon">
+                                    <!-- <i class="fas fa-search"></i>   -->
+                                </span>
+                            </div>
+                            <div class="search-filter">
+                                <!-- <span>Advance Search</span> -->
+                                <!-- <div class="select-category">
+                                    <label class="custom-select">
+                                        <select name="sample">
+                                            <option value="1">one</option>
+                                            <option value="2">two</option>
+                                            <option value="3">three</option>
+                                        </select>
+                                    </label>
+                                </div> -->
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <form action="/action_page.php" class="pt-3">
+                                            <label for="cars">Accessories</label>
+                                            <select id="cars" name="cars">
+                                                <option value="volvo">Volvo</option>
+                                                <option value="saab">Saab</option>
+                                                <option value="fiat">Fiat</option>
+                                                <option value="audi">Audi</option>
+                                            </select>
+                                        </form>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <form action="/action_page.php" class="pt-3">
+                                            <label for="cars">Colors</label>
+                                            <select id="cars" name="cars">
+                                                <option value="volvo">Volvo</option>
+                                                <option value="saab">Saab</option>
+                                                <option value="fiat">Fiat</option>
+                                                <option value="audi">Audi</option>
+                                            </select>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <form action="/action_page.php" class="pt-3">
+                                            <label for="cars">Gender</label>
+                                            <select id="cars" name="cars">
+                                                <option value="volvo">Volvo</option>
+                                                <option value="saab">Saab</option>
+                                                <option value="fiat">Fiat</option>
+                                                <option value="audi">Audi</option>
+                                            </select>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <form action="/action_page.php" class="pt-3">
+                                            <label for="cars">Equipments</label>
+                                            <select id="cars" name="cars">
+                                                <option value="volvo">Volvo</option>
+                                                <option value="saab">Saab</option>
+                                                <option value="fiat">Fiat</option>
+                                                <option value="audi">Audi</option>
+                                            </select>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="submit-btns j-c">
+                                    <button class="btn-search">Search</button>
+                                    <button class="btn-delete">Delete</button>
+                                </div>
+                            </div>
+                        </div>
                         <ul class="shop-feature">
-                            <li><i class="fas fa-search"></i></li>
-                            <li><i class="fas fa-shopping-cart"></i></li>
-                            <li><i class="fas fa-heart"></i></li>
+                            <li><a href="#" onclick="myFunction()"><i class="fas fa-search"></i></a></li>
+                            <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                            <li><a href="#"><i class="fas fa-heart"></i></a> </li>
                         </ul>
                     </div>
                 </div>

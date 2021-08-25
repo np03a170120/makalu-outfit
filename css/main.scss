@@ -370,3 +370,118 @@ footer {
         }
     }
 }
+
+// SEARCH BAR
+.pos-rel {
+    position: relative;
+}
+
+#myDIV {
+    position: absolute;
+    top: 6rem;
+    width: 90%;
+    text-align: center;
+    display: none;
+    transition: 0.3s linear;
+}
+
+.input-group-text {
+    background-color: #fafafa;
+}
+
+.header-bottom {
+    padding: 1rem;
+    .input-group>.custom-select:not(:last-child),
+    .input-group>.form-control:not(:last-child) {
+        font-size: $small-font !important;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+}
+
+.search-filter {
+    text-align: left;
+    input {
+        outline: none;
+        border: none;
+        font-size: $small-font;
+    }
+    span {
+        padding-top: 0.8rem;
+        display: block;
+        padding-bottom: 0.4rem;
+        font-size: $small-font;
+        color: $paragraph-color;
+        letter-spacing: 0.3rem;
+        text-transform: uppercase;
+    }
+    form {
+        padding: 0.4rem 0rem;
+        select {
+            word-wrap: normal;
+            display: flex;
+            padding: 0.4rem 1.4rem;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #ced4da;
+            font-size: $small-font;
+            outline: none;
+            outline: 0;
+            box-shadow: none;
+            border: 0 !important;
+        }
+        label {
+            font-size: $small-font;
+            color: $paragraph-color;
+        }
+    }
+}
+
+.form-control {
+    border-radius: 0rem;
+}
+
+.submit-btns {
+    button {
+        margin-top: 1.5rem;
+        margin-right: 0.6rem;
+    }
+    .btn-search {
+        background-color: $primary-orange;
+        outline: none;
+        border: none;
+        padding: 0.5rem 1rem;
+        color: white;
+        letter-spacing: 0.2rem;
+        font-weight: 100;
+        transition: 0.2s linear;
+        &:hover {
+            background-color: #a1510f;
+        }
+    }
+    .btn-delete {
+        background-color: #fafafa;
+        outline: none;
+        border: none;
+        color: $paragraph-color;
+        transition: 0.2s linear;
+        letter-spacing: 0.2rem;
+        font-weight: 100;
+        &:hover {
+            color: #a10f0f;
+        }
+    }
+}
+
+// SINGLE-CATEGORY
+.wear-types {
+    padding: 0 32%;
+    li {
+        padding: 0.4rem 0;
+        text-transform: uppercase;
+        color: $paragraph-color;
+        &:hover {
+            color: $primary-orange;
+        }
+    }
+}
