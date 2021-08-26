@@ -477,7 +477,7 @@ footer {
 
 // SINGLE-CATEGORY
 .wear-types {
-    padding: 0 32%;
+    padding: 0 28%;
     li {
         padding: 0.4rem 0;
         text-transform: uppercase;
@@ -485,5 +485,86 @@ footer {
         &:hover {
             color: $primary-orange;
         }
+    }
+}
+
+// MAIN-PRODUCT
+.main-product {
+    .mp-img {
+        img {
+            height: 30rem;
+            width: 30rem;
+            padding: 1.5rem;
+        }
+    }
+    .learn-more {
+        justify-content: left;
+    }
+}
+
+.co-title {
+    h6 {
+        color: $paragraph-color;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+    }
+}
+
+.co-wear {
+    padding: 0.4rem 0;
+    input {
+        margin-right: 0.4rem;
+    }
+}
+
+.uk-lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1010;
+    background: #fff;
+    opacity: 0;
+    transition: opacity 0.15s linear;
+    touch-action: pinch-zoom;
+}
+
+.uk-lightbox-items>*> :not(iframe) {
+    padding: 3rem 0;
+    width: auto;
+    height: auto;
+}
+
+.uk-button-default {
+    background-color: transparent;
+    color: #333;
+    border: none;
+}
+
+.note {
+    padding: 0.6rem 0;
+    text-align: center;
+    p {
+        font-size: $small-font;
+        span {
+            font-weight: 800;
+            text-transform: uppercase;
+            margin-right: 0.6rem;
+        }
+    }
+}
+
+// Breadcrumb
+.breadcrumb {
+    background: none;
+    padding: 1rem 4rem;
+}
+
+.myImage {
+    transition: 0.2s linear all;
+    &:hover {
+        transform: scale(1.1);
     }
 }

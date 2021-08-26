@@ -20,22 +20,24 @@
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="card-product">
-                            <div class="cp-img">
-                                <img src="./images/dummy-1.png" alt="">
-                            </div>
-                            <ul class="shop-feature">
-                                <li><i class="fas fa-search"></i></li>
-                                <li><i class="fas fa-shopping-cart"></i></li>
-                                <li><i class="fas fa-heart"></i></li>
-                            </ul>
-                            <div class="cp-title">
-                                <h6>Winter Gloves</h6>
-                            </div>
-                            <div class="prices">
-                                <span class="discount">Rs.1700</span>
-                                <span class="new-price">Rs.1600</span>
-                            </div>
+                            <a href="main-product.php">
+                                <div class="cp-img">
+                                    <img src="./images/dummy-1.png" alt="">
+                                </div>
+                                <ul class="shop-feature">
+                                    <li><i class="fas fa-search"></i></li>
+                                    <li><i class="fas fa-shopping-cart"></i></li>
+                                    <li><i class="fas fa-heart"></i></li>
+                                </ul>
+                                <div class="cp-title">
+                                    <h6>Winter Gloves</h6>
+                                </div>
+                                <div class="prices">
+                                    <span class="discount">Rs.1700</span>
+                                    <span class="new-price">Rs.1600</span>
+                                </div>
                         </div>
+                        </a>
                     </div>
                     <div class="col-lg-3">
                         <div class="card-product">

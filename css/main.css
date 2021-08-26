@@ -207,7 +207,7 @@ p {
 }
 
 .sec-title-inner {
-  padding: 4rem 0;
+  padding: 1rem 0;
   text-align: center;
 }
 
@@ -767,7 +767,7 @@ footer .mf-brand h2 {
 }
 
 .wear-types {
-  padding: 0 32%;
+  padding: 0 28%;
 }
 
 .wear-types li {
@@ -778,5 +778,89 @@ footer .mf-brand h2 {
 
 .wear-types li:hover {
   color: #db6f15;
+}
+
+.main-product .mp-img img {
+  height: 30rem;
+  width: 30rem;
+  padding: 1.5rem;
+}
+
+.main-product .learn-more {
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.co-title h6 {
+  color: #b7b3b3;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.co-wear {
+  padding: 0.4rem 0;
+}
+
+.co-wear input {
+  margin-right: 0.4rem;
+}
+
+.uk-lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1010;
+  background: #fff;
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+  -ms-touch-action: pinch-zoom;
+      touch-action: pinch-zoom;
+}
+
+.uk-lightbox-items > * > :not(iframe) {
+  padding: 3rem 0;
+  width: auto;
+  height: auto;
+}
+
+.uk-button-default {
+  background-color: transparent;
+  color: #333;
+  border: none;
+}
+
+.note {
+  padding: 0.6rem 0;
+  text-align: center;
+}
+
+.note p {
+  font-size: 0.875rem;
+}
+
+.note p span {
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-right: 0.6rem;
+}
+
+.breadcrumb {
+  background: none;
+  padding: 1rem 4rem;
+}
+
+.myImage {
+  -webkit-transition: 0.2s linear all;
+  transition: 0.2s linear all;
+}
+
+.myImage:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 /*# sourceMappingURL=main.css.map */

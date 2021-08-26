@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="./fontawesome-free-5.15.2-web/css/all.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/css/uikit.min.css" />
+
     <link rel="stylesheet" href="./css/main.css">
     <title>Makalu Outfit</title>
 </head>

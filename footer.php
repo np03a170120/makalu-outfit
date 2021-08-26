@@ -16,7 +16,7 @@
     </footer>
     <div class="footer-bottom">
         <div class="fb-company">
-            <a href="#"><span>Powered By</span>ultrabyte</a>    
+            <a href="#"><span>Powered By</span>ultrabyte</a>
         </div>
     </div>
 
@@ -27,7 +27,11 @@
     <script src="js/jquery.fancybox.js"></script>
     <script src="js/jquery.fancybox.pack.js"></script>
     <script src="js/jquery.fancybox-buttons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/js/uikit-icons.min.js"></script>
     <script src="./js/custom.js"></script>
+    <script>
+    </script>
     </body>
 
     </html>
