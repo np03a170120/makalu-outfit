@@ -799,7 +799,8 @@ footer .mf-brand h2 {
 }
 
 .co-wear {
-  padding: 0.4rem 0;
+  padding: 0.4rem;
+  margin-bottom: 1rem;
 }
 
 .co-wear input {
@@ -851,7 +852,8 @@ footer .mf-brand h2 {
 
 .breadcrumb {
   background: none;
-  padding: 1rem 4rem;
+  padding: 1rem 4rem 0rem 4rem;
+  margin-bottom: 0;
 }
 
 .myImage {
@@ -862,5 +864,144 @@ footer .mf-brand h2 {
 .myImage:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+.co-quantity input[type="number"] {
+  width: 40%;
+  border: 1px solid #db6f15;
+  font-size: 0.875rem;
+  padding: 0.6rem 1.6rem;
+}
+
+.main-product .prices {
+  padding-top: 0;
+}
+
+.product-review {
+  -webkit-transition: 0.2s linear all span;
+  transition: 0.2s linear all span;
+  transition-font-size: 1.5rem;
+  transition-cursor: pointer;
+}
+
+.product-review span {
+  background-color: #252424;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  color: white;
+  cursor: pointer;
+  letter-spacing: 0.2rem;
+  font-weight: 100;
+  margin: 1.5rem 0;
+}
+
+.product-review span:hover {
+  background: #000000;
+}
+
+.sticky-bot {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 1rem;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #efefef;
+  overflow-x: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #be5054;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+.pr-detail {
+  padding: 2rem;
+}
+
+.prd-title h5 {
+  text-transform: uppercase;
+  color: #818181;
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.rating li {
+  margin-right: 0.2rem;
+}
+
+.rating li i {
+  color: #db6f15;
+}
+
+.prd-review {
+  margin: 1rem 0;
+}
+
+.prdr-customer-detail {
+  padding: 0.2rem 0;
+}
+
+.prdr-customer-detail h6 {
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+.prdr-customer-detail p {
+  font-size: 0.875rem;
+}
+
+.prdr-write-review {
+  margin: 1rem 0;
 }
 /*# sourceMappingURL=main.css.map */

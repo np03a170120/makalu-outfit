@@ -75,3 +75,12 @@ $(".co-wear-input").click(function() {
 });
 
 // end of change product's image dynamically in main-product.php
+
+// sidebar navigation
+function openNav() {
+    document.getElementById("mySidenav").style.width = "30%";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
