@@ -163,9 +163,12 @@
                             </div>
                         </div>
                         <ul class="shop-feature">
-                            <li><a href="#" onclick="myFunction()"><i class="fas fa-search"></i></a></li>
-                            <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                            <li><a onclick="myFunction()"><i class="fas fa-search"></i></a></li>
+                            <li><a href="cart-items.php"><i class="fas fa-shopping-cart"></i></a></li>
                             <li><a href="#"><i class="fas fa-heart"></i></a> </li>
+                            <li><a href="login.php"><i class="fas fa-user"></i></a></li>
+                            <li><a href="register.php"><i class="fas fa-user"></i></a></li>
+
                         </ul>
                     </div>
                 </div>

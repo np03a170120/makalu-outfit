@@ -11,6 +11,8 @@
     </nav>
 </section>
 
+
+<!-- Main-product-->
 <section class="main-product sec-padding">
     <div class="container">
         <div class="row">
@@ -21,9 +23,9 @@
                             <img class="myImage" src="./images/main-prod-dummy.png" alt="product"></a>
                     </div>
                 </div>
-                <div class="note">
+                <!-- <div class="note">
                     <p><span>Note</span>Click on the image to view full screen</p>
-                </div>
+                </div> -->
             </div>
             <div class="col-lg-6 cus-pad-0">
                 <div class="mposd-title">
@@ -57,7 +59,7 @@
                         <h6>quantity</h6>
                     </div>
                     <div class="co-quantity">
-                        <input required type="number" value="" min="-100" max="100" />
+                        <input required type="number" value="1" min="0" max="100" />
                     </div>
                 </div>
                 <div class="product-review">
@@ -74,10 +76,29 @@
                                     <li><i class="far fa-star"></i></li>
                                 </ul>
                             </div>
-
                             <div class="prd-review">
                                 <div class="prdr-customer-detail">
                                     <h6>Naive Shrestha</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur possimus ex
+                                        repellendus excepturi sit veniam, eum, doloremque exercitationem!</p>
+                                </div>
+                                <div class="prdr-customer-detail">
+                                    <h6>Noah Shrestha</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur possimus ex
+                                        repellendus excepturi sit veniam, eum, doloremque exercitationem!</p>
+                                </div>
+                                <div class="prdr-customer-detail">
+                                    <h6>Noah Shrestha</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur possimus ex
+                                        repellendus excepturi sit veniam, eum, doloremque exercitationem!</p>
+                                </div>
+                                <div class="prdr-customer-detail">
+                                    <h6>Noah Shrestha</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur possimus ex
+                                        repellendus excepturi sit veniam, eum, doloremque exercitationem!</p>
+                                </div>
+                                <div class="prdr-customer-detail">
+                                    <h6>Noah Shrestha</h6>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur possimus ex
                                         repellendus excepturi sit veniam, eum, doloremque exercitationem!</p>
                                 </div>
@@ -103,16 +124,185 @@
                                                     rows="3"></textarea>
                                             </div>
                                         </div>
+                                        <div class="col-lg-6">
+                                            <button class="btn btn-submit">Submit</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                     <span onclick="openNav()">Check Reviews</span>
                 </div>
                 <div class="learn-more">
                     <a href="#">Buy now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Recommended product -->
+<section class="recommended-product sec-padding">
+    <div class="container">
+        <div class="sec-title j-c-s">
+            <h2>Style With</h2>
+            <h3>Style</h3>
+            <div class="show-all">
+                <a href="#">View All</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="card-product">
+                    <div class="cp-img">
+                        <img src="./images/dummy-1.png" alt="">
+                    </div>
+                    <ul class="shop-feature">
+                        <li><i class="fas fa-search"></i></li>
+                        <li><i class="fas fa-shopping-cart"></i></li>
+                        <li><i class="fas fa-heart"></i></li>
+                    </ul>
+                    <div class="cp-title">
+                        <h6>Winter Gloves</h6>
+                    </div>
+                    <div class="prices">
+                        <span class="discount">Rs.1700</span>
+                        <span class="new-price">Rs.1600</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card-product">
+                    <div class="cp-img">
+                        <img src="./images/dummy-2.png" alt="">
+                    </div>
+                    <ul class="shop-feature">
+                        <li><i class="fas fa-search"></i></li>
+                        <li><i class="fas fa-shopping-cart"></i></li>
+                        <li><i class="fas fa-heart"></i></li>
+                    </ul>
+                    <div class="cp-title">
+                        <h6>Winter Gloves</h6>
+                    </div>
+                    <div class="prices">
+                        <!-- <span class="discount">Rs.1700</span> -->
+                        <span class="new-price">Rs.1600</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card-product">
+                    <div class="cp-img">
+                        <img src="./images/dummy-3.png" alt="">
+                    </div>
+                    <ul class="shop-feature">
+                        <li><i class="fas fa-search"></i></li>
+                        <li><i class="fas fa-shopping-cart"></i></li>
+                        <li><i class="fas fa-heart"></i></li>
+                    </ul>
+                    <div class="cp-title">
+                        <h6>Winter Gloves</h6>
+                    </div>
+                    <div class="prices">
+                        <!-- <span class="discount">Rs.1700</span> -->
+                        <span class="new-price">Rs.1600</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card-product">
+                    <div class="cp-img">
+                        <img src="./images/dummy-4.png" alt="">
+                    </div>
+                    <ul class="shop-feature">
+                        <li><i class="fas fa-search"></i></li>
+                        <li><i class="fas fa-shopping-cart"></i></li>
+                        <li><i class="fas fa-heart"></i></li>
+                    </ul>
+                    <div class="cp-title">
+                        <h6>Winter Gloves</h6>
+                    </div>
+                    <div class="prices">
+                        <!-- <span class="discount">Rs.1700</span> -->
+                        <span class="new-price">Rs.1600</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card-product">
+                    <div class="cp-img">
+                        <img src="./images/dummy-1.png" alt="">
+                    </div>
+                    <ul class="shop-feature">
+                        <li><i class="fas fa-search"></i></li>
+                        <li><i class="fas fa-shopping-cart"></i></li>
+                        <li><i class="fas fa-heart"></i></li>
+                    </ul>
+                    <div class="cp-title">
+                        <h6>Winter Gloves</h6>
+                    </div>
+                    <div class="prices">
+                        <span class="discount">Rs.1700</span>
+                        <span class="new-price">Rs.1600</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card-product">
+                    <div class="cp-img">
+                        <img src="./images/dummy-2.png" alt="">
+                    </div>
+                    <ul class="shop-feature">
+                        <li><i class="fas fa-search"></i></li>
+                        <li><i class="fas fa-shopping-cart"></i></li>
+                        <li><i class="fas fa-heart"></i></li>
+                    </ul>
+                    <div class="cp-title">
+                        <h6>Winter Gloves</h6>
+                    </div>
+                    <div class="prices">
+                        <!-- <span class="discount">Rs.1700</span> -->
+                        <span class="new-price">Rs.1600</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card-product">
+                    <div class="cp-img">
+                        <img src="./images/dummy-3.png" alt="">
+                    </div>
+                    <ul class="shop-feature">
+                        <li><i class="fas fa-search"></i></li>
+                        <li><i class="fas fa-shopping-cart"></i></li>
+                        <li><i class="fas fa-heart"></i></li>
+                    </ul>
+                    <div class="cp-title">
+                        <h6>Winter Gloves</h6>
+                    </div>
+                    <div class="prices">
+                        <!-- <span class="discount">Rs.1700</span> -->
+                        <span class="new-price">Rs.1600</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card-product">
+                    <div class="cp-img">
+                        <img src="./images/dummy-4.png" alt="">
+                    </div>
+                    <ul class="shop-feature">
+                        <li><i class="fas fa-search"></i></li>
+                        <li><i class="fas fa-shopping-cart"></i></li>
+                        <li><i class="fas fa-heart"></i></li>
+                    </ul>
+                    <div class="cp-title">
+                        <h6>Winter Gloves</h6>
+                    </div>
+                    <div class="prices">
+                        <!-- <span class="discount">Rs.1700</span> -->
+                        <span class="new-price">Rs.1600</span>
+                    </div>
                 </div>
             </div>
         </div>

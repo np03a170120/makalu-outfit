@@ -864,6 +864,8 @@ footer .mf-brand h2 {
 .myImage:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
 }
 
 .co-quantity input[type="number"] {
@@ -1003,5 +1005,220 @@ footer .mf-brand h2 {
 
 .prdr-write-review {
   margin: 1rem 0;
+}
+
+.btn-submit {
+  background-color: #be5054;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  color: white;
+  letter-spacing: 0.2rem;
+  font-weight: 100;
+  margin: 0.5rem 0;
+  -webkit-transition: 0.2s linear all;
+  transition: 0.2s linear all;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.login .sec-title {
+  position: relative;
+  padding: 1.5rem 0;
+}
+
+.login .sec-title h2::after {
+  content: "";
+  width: 3%;
+  text-align: center;
+  bottom: -5%;
+  left: 43.5%;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+}
+
+.login .sec-title h3 {
+  -webkit-transform: translateX(-29%);
+          transform: translateX(-29%);
+  left: 50%;
+  top: -51%;
+}
+
+.login .form-control {
+  padding: 1.9rem 2.75rem;
+  background: #e9e9e9;
+  border: none;
+}
+
+.login input {
+  margin: 1rem 0;
+}
+
+.login ::-webkit-input-placeholder {
+  color: #9c9a9a;
+}
+
+.login :-ms-input-placeholder {
+  color: #9c9a9a;
+}
+
+.login ::-ms-input-placeholder {
+  color: #9c9a9a;
+}
+
+.login ::placeholder {
+  color: #9c9a9a;
+}
+
+.login .learn-more {
+  margin: 1rem 0;
+}
+
+.login .learn-more a {
+  background: #db6f15;
+}
+
+.login .form-check {
+  padding-left: 0;
+}
+
+.login .form-check label {
+  margin-bottom: 0;
+}
+
+.login .form-check label span {
+  color: #b7b3b3;
+}
+
+.login .form-check label input {
+  background: #b7b3b3;
+}
+
+.l-form {
+  padding: 0 15rem;
+}
+
+.namaste {
+  text-align: center;
+}
+
+.namaste img {
+  width: 30rem;
+  height: auto;
+}
+
+.login-with {
+  text-align: center;
+}
+
+.login-with .lw-title {
+  margin: 0.5rem 0;
+}
+
+.login-with .lw-title h6 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #b7b3b3;
+}
+
+.login-with img {
+  height: 4rem;
+  width: 4rem;
+  margin: 0.4rem;
+  -webkit-transition: 0.2s linear all;
+  transition: 0.2s linear all;
+}
+
+.login-with img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.lw-icons {
+  margin: 0.6rem;
+}
+
+.account-existed {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.fp {
+  margin-bottom: 0.4rem;
+}
+
+.fp a {
+  font-size: 0.875rem;
+}
+
+.cart-items .sec-title h3 {
+  left: 47.5%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: -10%;
+}
+
+.cart-items .sec-title h2::after {
+  content: "";
+  width: 4%;
+  background-color: #db6f15;
+  position: absolute;
+  bottom: -3%;
+  height: 2px;
+  left: 40.5%;
+  margin-top: 0.1rem;
+}
+
+.cart-items .table {
+  text-align: center;
+}
+
+.cart-items .table img {
+  width: 10rem;
+  height: 10rem;
+}
+
+.cart-items .table th {
+  color: #b7b3b3;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.cart-items .table td,
+.cart-items .table th {
+  padding: 0.75rem;
+  vertical-align: baseline;
+  border-top: 1px solid #dee2e6;
+  font-weight: 500;
+}
+
+.product-title h6 {
+  letter-spacing: 0;
+  font-size: 0.875rem;
+}
+
+.product-title button {
+  border: none;
+  outline: none;
+  background: none;
+  color: #b7b3b3;
+  font-size: 0.875rem;
+}
+
+.product-title a {
+  text-transform: none;
+  letter-spacing: 0;
+  color: #db6f15;
+  font-size: 0.875rem;
+}
+
+.total-price {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: right;
 }
 /*# sourceMappingURL=main.css.map */

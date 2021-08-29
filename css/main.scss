@@ -568,6 +568,7 @@ footer {
     transition: 0.2s linear all;
     &:hover {
         transform: scale(1.1);
+        cursor: zoom-in;
     }
 }
 
@@ -702,4 +703,183 @@ footer {
 // write review
 .prdr-write-review {
     margin: 1rem 0;
+}
+
+.btn-submit {
+    background-color: #be5054;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    color: white;
+    letter-spacing: 0.2rem;
+    font-weight: 100;
+    margin: 0.5rem 0;
+    transition: 0.2s linear all;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+// login
+.login {
+    .sec-title {
+        position: relative;
+        padding: 1.5rem 0;
+    }
+    .sec-title h2::after {
+        content: "";
+        width: 3%;
+        text-align: center;
+        bottom: -5%;
+        left: 43.5%;
+        transform: translateX(50%);
+    }
+    .sec-title h3 {
+        transform: translateX(-29%);
+        left: 50%;
+        top: -51%;
+    }
+    .form-control {
+        padding: 1.9rem 2.75rem;
+        background: #e9e9e9;
+        border: none;
+    }
+    input {
+        margin: 1rem 0;
+    }
+     ::placeholder {
+        color: #9c9a9a;
+    }
+    .learn-more {
+        margin: 1rem 0;
+        a {
+            background: $primary-orange;
+        }
+    }
+    .form-check {
+        padding-left: 0;
+        label {
+            margin-bottom: 0;
+            span {
+                color: $paragraph-color;
+            }
+            input {
+                background: $paragraph-color;
+            }
+        }
+    }
+}
+
+.l-form {
+    padding: 0 15rem;
+}
+
+.namaste {
+    text-align: center;
+    img {
+        width: 30rem;
+        height: auto;
+    }
+}
+
+.login-with {
+    text-align: center;
+    .lw-title {
+        margin: 0.5rem 0;
+        h6 {
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: $medium-font;
+            color: $paragraph-color;
+        }
+    }
+    img {
+        height: 4rem;
+        width: 4rem;
+        margin: 0.4rem;
+        transition: 0.2s linear all;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.lw-icons {
+    margin: 0.6rem;
+}
+
+.account-existed {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.fp {
+    margin-bottom: 0.4rem;
+    a {
+        font-size: $small-font;
+    }
+}
+
+// cart items
+.cart-items {
+    .sec-title h3 {
+        left: 47.5%;
+        transform: translateX(-50%);
+        top: -10%;
+    }
+    .sec-title h2::after {
+        content: "";
+        width: 4%;
+        background-color: #db6f15;
+        position: absolute;
+        bottom: -3%;
+        height: 2px;
+        left: 40.5%;
+        margin-top: 0.1rem;
+    }
+    .table {
+        text-align: center;
+        img {
+            width: 10rem;
+            height: 10rem;
+        }
+        th {
+            color: $paragraph-color;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.2rem;
+        }
+    }
+    .table td,
+    .table th {
+        padding: 0.75rem;
+        vertical-align: baseline;
+        border-top: 1px solid #dee2e6;
+        font-weight: 500;
+    }
+}
+
+.product-title {
+    h6 {
+        letter-spacing: 0;
+        font-size: $small-font;
+    }
+    button {
+        border: none;
+        outline: none;
+        background: none;
+        color: $paragraph-color;
+        font-size: $small-font;
+    }
+    a {
+        text-transform: none;
+        letter-spacing: 0;
+        color: $primary-orange;
+        font-size: $small-font;
+    }
+}
+
+.total-price {
+    align-items: center;
+    text-align: right;
 }
