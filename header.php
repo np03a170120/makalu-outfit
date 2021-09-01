@@ -165,10 +165,23 @@
                         <ul class="shop-feature">
                             <li><a onclick="myFunction()"><i class="fas fa-search"></i></a></li>
                             <li><a href="cart-items.php"><i class="fas fa-shopping-cart"></i></a></li>
-                            <li><a href="#"><i class="fas fa-heart"></i></a> </li>
-                            <li><a href="login.php"><i class="fas fa-user"></i></a></li>
-                            <li><a href="register.php"><i class="fas fa-user"></i></a></li>
+                            <li><a href="wishlist.php"><i class="fas fa-heart"></i></a> </li>
 
+                            <!-- <li><a href="login.php"><i class="fas fa-user"></i></a></li>
+                            <li><a href="register.php"><i class="fas fa-user"></i></a></li> -->
+                            <div class="dropdown">
+                                <li class="droplink"><a href="#"><i class="fas fa-user"></i></a></li>
+                                <div class="dropdown-content">
+                                    <a href="login.php">
+                                        <i class="fas fa-lock"></i>
+                                        Login
+                                    </a>
+                                    <a href="register.php">
+                                        <i class="fas fa-key"></i>
+                                        Register
+                                    </a>
+                                </div>
+                            </div>
                         </ul>
                     </div>
                 </div>

@@ -882,4 +882,84 @@ footer {
 .total-price {
     align-items: center;
     text-align: right;
+    h4 {
+        font-weight: 800;
+        letter-spacing: 0.1rem;
+    }
+    span {
+        font-weight: 500;
+        font-size: $medium-font;
+        color: $primary-orange;
+    }
+}
+
+.wishlist {
+    .sec-title h3 {
+        left: 56.5%;
+        transform: translateX(-50%);
+        top: -10%;
+    }
+    .sec-title h2::after {
+        content: "";
+        width: 4%;
+        background-color: #db6f15;
+        position: absolute;
+        bottom: -3%;
+        height: 2px;
+        left: 42.5%;
+        margin-top: 0.1rem;
+    }
+    .prices {
+        padding: 0;
+    }
+    .card-product {
+        &:hover {
+            .cp-img img {
+                margin-top: 0px;
+            }
+            .cp-title {
+                h6 {
+                    color: $primary-orange;
+                }
+            }
+        }
+    }
+    .product-title {
+        padding: 0.3rem 0;
+    }
+}
+
+.shop-feature {
+    .droplink {
+        border: none;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        z-index: 1;
+    }
+    .dropdown-content a {
+        color: $paragraph-color;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        font-size: $small-font;
+        letter-spacing: 0.2rem;
+    }
+    .dropdown-content a:hover {
+        background-color: $primary-orange;
+        color: white;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+    }
 }

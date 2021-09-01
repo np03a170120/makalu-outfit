@@ -1221,4 +1221,88 @@ footer .mf-brand h2 {
           align-items: center;
   text-align: right;
 }
+
+.total-price h4 {
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+}
+
+.total-price span {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #db6f15;
+}
+
+.wishlist .sec-title h3 {
+  left: 56.5%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: -10%;
+}
+
+.wishlist .sec-title h2::after {
+  content: "";
+  width: 4%;
+  background-color: #db6f15;
+  position: absolute;
+  bottom: -3%;
+  height: 2px;
+  left: 42.5%;
+  margin-top: 0.1rem;
+}
+
+.wishlist .prices {
+  padding: 0;
+}
+
+.wishlist .card-product:hover .cp-img img {
+  margin-top: 0px;
+}
+
+.wishlist .card-product:hover .cp-title h6 {
+  color: #db6f15;
+}
+
+.wishlist .product-title {
+  padding: 0.3rem 0;
+}
+
+.shop-feature .droplink {
+  border: none;
+}
+
+.shop-feature .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.shop-feature .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.shop-feature .dropdown-content a {
+  color: #b7b3b3;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 0.875rem;
+  letter-spacing: 0.2rem;
+}
+
+.shop-feature .dropdown-content a:hover {
+  background-color: #db6f15;
+  color: white;
+}
+
+.shop-feature .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.shop-feature .dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
 /*# sourceMappingURL=main.css.map */
