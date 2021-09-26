@@ -74,13 +74,57 @@ $(".co-wear-input").click(function() {
     $(".my-lighbox-class").attr("href", mysrc);
 });
 
+$(".check__reviews").click(function() {
+    $("#mySidenav").addClass("open");
+    $("body").addClass("open-opacity");
+});
+
+$(".closebtn").click(function() {
+    $("#mySidenav").removeClass("open");
+    $("body").removeClass("open-opacity");
+});
+
+const $menu = $("#mySidenav");
+$(document).mouseup((e) => {
+    if (!$menu.is(e.target) && // if the target of the click isn't the container...
+        $menu.has(e.target).length === 0
+    ) {
+        // ... nor a descendant of the container
+        $menu.removeClass("open");
+        $("body").removeClass("open-opacity");
+    }
+});
+
+$(".co-wear-input").click(function() {
+    $(".co-wear-input").removeClass("selected");
+    $(this).addClass("selected");
+});
+
+$(".search_id").click(function() {
+    $("#myDIV").toggle(300);
+});
+
 // end of change product's image dynamically in main-product.php
 
 // sidebar navigation
 function openNav() {
-    document.getElementById("mySidenav").style.width = "30%";
+    // document.getElementById("mySidenav").style.width = "30%";
+    $("#mySidenav").css("width", "30%");
 }
 
 function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
+    // document.getElementById("mySidenav").style.width = "0";
+    $("#mySidenav").css("width", "0");
 }
+
+$("#read_more_btn").click(function() {
+    $(".read-more").slideToggle("slow");
+});
+
+/**
+ * border_class appiled to the selected size.
+ * eg: XL highlighted, SM, XXL .. unhighlighted.
+ */
+$(".size li").click(function(e) {
+    $(this).addClass("border_class").siblings().removeClass("border_class");
+});

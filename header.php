@@ -16,6 +16,28 @@
     <link rel="stylesheet" href="./css/main.css">
     <title>Makalu Outfit</title>
 </head>
+<style>
+.sidenav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    transition: all .8s ease-in-out;
+    z-index: 9999999999;
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    max-width: 500px;
+    padding: 40px 0;
+    border-left: 1px solid #efefef;
+    opacity: 0;
+    overflow-y: auto;
+}
+
+.sidenav.open {
+    right: 0;
+    opacity: 1;
+}
+</style>
 
 <body>
     <header>
@@ -44,12 +66,12 @@
             </div>
             <div class="header-bottom">
                 <div class="row">
-                    <div class="col-lg-2 j-c-c">
+                    <div class="col-lg-3 j-c-c">
                         <div class="logo">
                             <img src="./images/logo.png" alt="">
                         </div>
                     </div>
-                    <div class="col-lg-7 j-c-c">
+                    <div class="col-lg-6 j-c-c">
                         <div class="navigation">
                             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                                 <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -68,6 +90,20 @@
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="single-category.php">Men</a>
+                                            <div class="dropdown-nav">
+                                                <ul class="dn">
+                                                    <li><a href="#">Fleece</a></li>
+                                                    <li><a href="#">Jacket</a></li>
+                                                    <li><a href="#">Bottom</a></li>
+                                                    <li><a href="#">Fleece</a></li>
+                                                    <li><a href="#">Jacket</a></li>
+                                                    <li><a href="#">Bottom</a></li>
+                                                    <li><a href="#">Fleece</a></li>
+                                                    <li><a href="#">Jacket</a></li>
+                                                    <li><a href="#">Bottom</a></li>
+
+                                                </ul>
+                                            </div>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Women</a>
@@ -80,17 +116,6 @@
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Climbing</a>
-                                        </li>
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                Dropdown link
-                                            </a>
-                                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                                <a class="dropdown-item" href="#">Action</a>
-                                                <a class="dropdown-item" href="#">Another action</a>
-                                                <a class="dropdown-item" href="#">Something else here</a>
-                                            </div>
                                         </li>
                                     </ul>
                                 </div>
@@ -163,7 +188,7 @@
                             </div>
                         </div>
                         <ul class="shop-feature">
-                            <li><a onclick="myFunction()"><i class="fas fa-search"></i></a></li>
+                            <li><span class="search_id"><i class="fas fa-search"></i></span></li>
                             <li><a href="cart-items.php"><i class="fas fa-shopping-cart"></i></a></li>
                             <li><a href="wishlist.php"><i class="fas fa-heart"></i></a> </li>
 

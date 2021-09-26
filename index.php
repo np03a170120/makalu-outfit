@@ -113,7 +113,7 @@
                                     at eos totam commodi tempore quae reprehenderit fuga. Soluta voluptate </p>
                             </div>
                             <ul class="shop-feature">
-                                <li><i class="fas fa-search"></i></li>
+                                <li><a href="#"><i class="fas fa-search"></i></a></li>
                                 <li><i class="fas fa-shopping-cart"></i></li>
                                 <li><i class="fas fa-heart"></i></li>
                             </ul>
@@ -145,7 +145,7 @@
                                     at eos totam commodi tempore quae reprehenderit fuga. Soluta voluptate </p>
                             </div>
                             <ul class="shop-feature">
-                                <li><i class="fas fa-search"></i></li>
+                                <li><a href="#"><i class="fas fa-search"></i></a></li>
                                 <li><i class="fas fa-shopping-cart"></i></li>
                                 <li><i class="fas fa-heart"></i></li>
                             </ul>
@@ -177,7 +177,7 @@
                                     at eos totam commodi tempore quae reprehenderit fuga. Soluta voluptate </p>
                             </div>
                             <ul class="shop-feature">
-                                <li><i class="fas fa-search"></i></li>
+                                <li><a href="#"><i class="fas fa-search"></i></a></li>
                                 <li><i class="fas fa-shopping-cart"></i></li>
                                 <li><i class="fas fa-heart"></i></li>
                             </ul>
@@ -234,7 +234,7 @@
                                     at eos totam commodi tempore quae reprehenderit fuga. Soluta voluptate </p>
                             </div>
                             <ul class="shop-feature">
-                                <li><i class="fas fa-search"></i></li>
+                                <li><a href="#"><i class="fas fa-search"></i></a></li>
                                 <li><i class="fas fa-shopping-cart"></i></li>
                                 <li><i class="fas fa-heart"></i></li>
                             </ul>
@@ -269,7 +269,7 @@
                                     at eos totam commodi tempore quae reprehenderit fuga. Soluta voluptate </p>
                             </div>
                             <ul class="shop-feature">
-                                <li><i class="fas fa-search"></i></li>
+                                <li><a href="#"><i class="fas fa-search"></i></a></li>
                                 <li><i class="fas fa-shopping-cart"></i></li>
                                 <li><i class="fas fa-heart"></i></li>
                             </ul>
@@ -304,7 +304,7 @@
                                     at eos totam commodi tempore quae reprehenderit fuga. Soluta voluptate </p>
                             </div>
                             <ul class="shop-feature">
-                                <li><i class="fas fa-search"></i></li>
+                                <li><a href="#"><i class="fas fa-search"></i></a></li>
                                 <li><i class="fas fa-shopping-cart"></i></li>
                                 <li><i class="fas fa-heart"></i></li>
                             </ul>
@@ -340,7 +340,7 @@
                         <img src="./images/dummy-1.png" alt="">
                     </div>
                     <ul class="shop-feature">
-                        <li><i class="fas fa-search"></i></li>
+                        <li><a href="#"><i class="fas fa-search"></i></a></li>
                         <li><i class="fas fa-shopping-cart"></i></li>
                         <li><i class="fas fa-heart"></i></li>
                     </ul>
@@ -359,7 +359,7 @@
                         <img src="./images/dummy-2.png" alt="">
                     </div>
                     <ul class="shop-feature">
-                        <li><i class="fas fa-search"></i></li>
+                        <li><a href="#"><i class="fas fa-search"></i></a></li>
                         <li><i class="fas fa-shopping-cart"></i></li>
                         <li><i class="fas fa-heart"></i></li>
                     </ul>
@@ -378,7 +378,7 @@
                         <img src="./images/dummy-3.png" alt="">
                     </div>
                     <ul class="shop-feature">
-                        <li><i class="fas fa-search"></i></li>
+                        <li><a href="#"><i class="fas fa-search"></i></a></li>
                         <li><i class="fas fa-shopping-cart"></i></li>
                         <li><i class="fas fa-heart"></i></li>
                     </ul>
@@ -397,7 +397,7 @@
                         <img src="./images/dummy-4.png" alt="">
                     </div>
                     <ul class="shop-feature">
-                        <li><i class="fas fa-search"></i></li>
+                        <li><a href="#"><i class="fas fa-search"></i></a></li>
                         <li><i class="fas fa-shopping-cart"></i></li>
                         <li><i class="fas fa-heart"></i></li>
                     </ul>
@@ -416,7 +416,7 @@
                         <img src="./images/dummy-1.png" alt="">
                     </div>
                     <ul class="shop-feature">
-                        <li><i class="fas fa-search"></i></li>
+                        <li><a href="#"><i class="fas fa-search"></i></a></li>
                         <li><i class="fas fa-shopping-cart"></i></li>
                         <li><i class="fas fa-heart"></i></li>
                     </ul>
@@ -435,7 +435,7 @@
                         <img src="./images/dummy-2.png" alt="">
                     </div>
                     <ul class="shop-feature">
-                        <li><i class="fas fa-search"></i></li>
+                        <li><a href="#"><i class="fas fa-search"></i></a></li>
                         <li><i class="fas fa-shopping-cart"></i></li>
                         <li><i class="fas fa-heart"></i></li>
                     </ul>
@@ -454,7 +454,7 @@
                         <img src="./images/dummy-3.png" alt="">
                     </div>
                     <ul class="shop-feature">
-                        <li><i class="fas fa-search"></i></li>
+                        <li><a href="#"><i class="fas fa-search"></i></a></li>
                         <li><i class="fas fa-shopping-cart"></i></li>
                         <li><i class="fas fa-heart"></i></li>
                     </ul>
@@ -473,7 +473,7 @@
                         <img src="./images/dummy-4.png" alt="">
                     </div>
                     <ul class="shop-feature">
-                        <li><i class="fas fa-search"></i></li>
+                        <li><a href="#"><i class="fas fa-search"></i></a></li>
                         <li><i class="fas fa-shopping-cart"></i></li>
                         <li><i class="fas fa-heart"></i></li>
                     </ul>

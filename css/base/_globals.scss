@@ -50,9 +50,9 @@ p {
 }
 
 .test {
-    padding: 0 2rem;
+    padding: 0 1rem;
     position: sticky;
-    top: 0;
+    top: 0%;
 }
 
 .j-c {
@@ -214,4 +214,9 @@ p {
 
 .mr {
     margin-right: 2rem;
+}
+
+.selected {
+    padding: 0.1rem 0;
+    border: 1px solid $primary-orange;
 }

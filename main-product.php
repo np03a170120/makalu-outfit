@@ -54,7 +54,7 @@
                             height="50">
                     </div>
                 </div>
-                <div class="color-option">
+                <div class="quantity-option">
                     <div class="co-title">
                         <h6>quantity</h6>
                     </div>
@@ -62,80 +62,23 @@
                         <input required type="number" value="1" min="0" max="100" />
                     </div>
                 </div>
-                <div class="product-review">
-                    <div id="mySidenav" class="sidenav">
-                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                        <div class="pr-detail">
-                            <div class="prd-title">
-                                <h5>Ratings (128)</h5>
-                                <ul class="rating">
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="far fa-star"></i></li>
-                                </ul>
-                            </div>
-                            <div class="prd-review">
-                                <div class="prdr-customer-detail">
-                                    <h6>Naive Shrestha</h6>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur possimus ex
-                                        repellendus excepturi sit veniam, eum, doloremque exercitationem!</p>
-                                </div>
-                                <div class="prdr-customer-detail">
-                                    <h6>Noah Shrestha</h6>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur possimus ex
-                                        repellendus excepturi sit veniam, eum, doloremque exercitationem!</p>
-                                </div>
-                                <div class="prdr-customer-detail">
-                                    <h6>Noah Shrestha</h6>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur possimus ex
-                                        repellendus excepturi sit veniam, eum, doloremque exercitationem!</p>
-                                </div>
-                                <div class="prdr-customer-detail">
-                                    <h6>Noah Shrestha</h6>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur possimus ex
-                                        repellendus excepturi sit veniam, eum, doloremque exercitationem!</p>
-                                </div>
-                                <div class="prdr-customer-detail">
-                                    <h6>Noah Shrestha</h6>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur possimus ex
-                                        repellendus excepturi sit veniam, eum, doloremque exercitationem!</p>
-                                </div>
-                                <div class="prdr-customer-detail">
-                                    <h6>Noah Shrestha</h6>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur possimus ex
-                                        repellendus excepturi sit veniam, eum, doloremque exercitationem!</p>
-                                </div>
-                                <div class="prdr-write-review">
-                                    <div class="pwr">
-                                        <h6>Write a review</h6>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <div class="form-group">
-                                                <input type="email" class="form-control" id="exampleFormControlInput1"
-                                                    placeholder="Enter your name">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12">
-                                            <div class="form-group">
-                                                <textarea class="form-control" id="exampleFormControlTextarea1"
-                                                    rows="3"></textarea>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <button class="btn btn-submit">Submit</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="size-option">
+                    <div class="co-title">
+                        <h6>Size</h6>
                     </div>
-                    <span onclick="openNav()">Check Reviews</span>
+                    <ul class="size">
+                        <li><span>SM</span></li>
+                        <li><span>M</span></li>
+                        <li><span>XL</span></li>
+                        <li><span>XXL</span></li>
+                    </ul>
+
+                </div>
+                <div class="product-review">
+                    <span class="check__reviews">Check Reviews</span>
                 </div>
                 <div class="learn-more">
-                    <a href="#">Buy now</a>
+                    <a href="#">Add To Cart</a>
                 </div>
             </div>
         </div>
@@ -309,7 +252,74 @@
     </div>
 </section>
 
-
+<div id="mySidenav" class="sidenav">
+    <a class="closebtn">&times;</a>
+    <div class="pr-detail">
+        <div class="prd-title">
+            <h5>Ratings (128)</h5>
+            <ul class="rating">
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="far fa-star"></i></li>
+            </ul>
+        </div>
+        <div class="prd-review">
+            <div class="prdr-customer-detail">
+                <h6>Naive Shrestha</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur possimus ex
+                    repellendus excepturi sit veniam, eum, doloremque exercitationem!</p>
+            </div>
+            <div class="prdr-customer-detail">
+                <h6>Noah Shrestha</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur possimus ex
+                    repellendus excepturi sit veniam, eum, doloremque exercitationem!</p>
+            </div>
+            <div class="prdr-customer-detail">
+                <h6>Noah Shrestha</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur possimus ex
+                    repellendus excepturi sit veniam, eum, doloremque exercitationem!</p>
+            </div>
+            <div class="prdr-customer-detail">
+                <h6>Noah Shrestha</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur possimus ex
+                    repellendus excepturi sit veniam, eum, doloremque exercitationem!</p>
+            </div>
+            <div class="prdr-customer-detail">
+                <h6>Noah Shrestha</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur possimus ex
+                    repellendus excepturi sit veniam, eum, doloremque exercitationem!</p>
+            </div>
+            <div class="prdr-customer-detail">
+                <h6>Noah Shrestha</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur possimus ex
+                    repellendus excepturi sit veniam, eum, doloremque exercitationem!</p>
+            </div>
+            <div class="prdr-write-review">
+                <div class="pwr">
+                    <h6>Write a review</h6>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Enter your name">
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <button class="btn btn-submit">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <?php include 'footer.php' ?>
