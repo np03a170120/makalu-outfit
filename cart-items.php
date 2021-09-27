@@ -1,4 +1,13 @@
 <?php include 'header.php' ?>
+<section class="breadcrumb">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.php"><i class="fas fa-home"></i></a></li>
+            <!-- <li class="breadcrumb-item"><a href="#">Library</a></li> -->
+            <li class="breadcrumb-item active" aria-current="page">Wind Cheater</li>
+        </ol>
+    </nav>
+</section>
 <section class="cart-items sec-padding">
     <div class="container">
         <div class="sec-title text-center">
@@ -72,6 +81,9 @@
             <div class="total-price">
                 <h4>Total Price</h4>
                 <span>Rs 3000</span>
+            </div>
+            <div class="learn-more">
+                <a href="checkout.php">Proceed To Checkout</a>
             </div>
         </div>
     </div>

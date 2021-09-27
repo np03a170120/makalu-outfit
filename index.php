@@ -15,9 +15,9 @@
                 nemo velit odio, esse facilis blanditiis accusantium, labore tempora. Tenetur facere porro quos
                 dignissimos laboriosam repellendus!</p>
         </div>
-        <div class="learn-more">
+        <!-- <div class="learn-more">
             <a href="#">Learn More</a>
-        </div>
+        </div> -->
     </div>
 </section>
 <section class="main-banner main-banner-slider sec-padding ">

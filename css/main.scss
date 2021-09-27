@@ -182,8 +182,9 @@
 // MAIN-PRODUCT-ON-SALE
 .mpos-image {
     img {
-        height: 30rem;
-        width: 30rem;
+        height: 28rem;
+        width: 40rem;
+        object-fit: cover;
     }
 }
 
@@ -562,8 +563,9 @@ footer {
 // Breadcrumb
 .breadcrumb {
     background: none;
-    padding: 1rem 4rem 0rem 4rem;
+    padding: 1rem 4rem 0rem 0rem;
     margin-bottom: 0;
+    justify-content: right;
 }
 
 .myImage {
@@ -945,6 +947,7 @@ footer {
         background-color: #f1f1f1;
         min-width: 160px;
         z-index: 1;
+        left: -90%;
     }
     .dropdown-content a {
         color: $paragraph-color;
@@ -1051,7 +1054,7 @@ footer {
     li {
         &:hover {
             .dropdown-nav {
-                opacity: 1;
+                display: block;
             }
         }
     }
@@ -1060,26 +1063,156 @@ footer {
     }
     .dropdown-nav {
         position: absolute;
-        top: 100%;
-        left: 50%;
+        top: 110%;
+        padding: 3rem;
+        left: 20%;
         transform: translateX(-50%);
-        opacity: 0;
-        opacity: 0;
-        background: whitesmoke;
-        display: block;
+        background: white;
+        display: none;
+        z-index: 9999;
     }
 }
 
 .dn {
     column-count: 5;
-    padding: 2rem 3rem;
+    padding: 1rem;
     li {
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
         margin-right: 1rem;
         a {
             font-weight: 400;
-            letter-spacing: 0.1rem;
             font-size: 0.9rem;
+        }
+    }
+}
+
+.dn-title {
+    margin: 1rem;
+    position: relative;
+    &::after {
+        height: 2px;
+        width: 10%;
+        content: "";
+        background-color: #db6f15;
+        position: absolute;
+        bottom: -4%;
+    }
+    h3 {
+        margin-bottom: -1rem;
+    }
+}
+
+.cart-table {
+    .learn-more {
+        justify-content: right;
+    }
+}
+
+.bd-form {
+    .form-control {
+        padding: 1.9rem 2.75rem;
+        background: #e9e9e9;
+        border: none;
+        font-size: 0.9rem;
+    }
+    .form-group {
+        margin-bottom: 1.5rem;
+        label {
+            color: rgb(68, 68, 68);
+            position: relative;
+            &::after {
+                position: absolute;
+                top: 0;
+                content: "*";
+                color: $seconday-red;
+                margin-left: 2px;
+            }
+        }
+    }
+}
+
+.bd-title {
+    h4 {
+        font-weight: 700;
+        color: $primary-orange;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        font-size: 1.2rem;
+    }
+    margin-bottom: 2rem;
+}
+
+.bd-table-product {
+    padding: 1rem;
+    table {
+        margin-bottom: 3rem;
+        background: $seconday-red;
+        color: white;
+    }
+    tbody {
+        text-align: left;
+    }
+    tr {
+        text-align: left;
+    }
+    th {
+        color: white !important;
+        font-weight: 800;
+        font-size: 1.2rem;
+    }
+}
+
+.bd-payment {
+    padding: 1rem;
+}
+
+.terms {
+    margin: 3rem 0;
+}
+
+.cash-on-delivery,
+.terms {
+    label {
+        font-size: 0.8rem;
+    }
+}
+
+.bd-payment {
+    .learn-more {
+        justify-content: right;
+    }
+}
+
+.notify {
+    position: relative;
+    .sf-count {
+        position: absolute;
+        bottom: 15px;
+        left: 33px;
+        background-color: #be5054;
+        height: 1.2rem;
+        width: 1.2rem;
+        line-height: 1.2rem;
+        border-radius: 50%;
+        color: white;
+        text-align: center;
+        font-size: 10px;
+    }
+}
+
+.dynamic-content {
+    border: 3px solid whitesmoke;
+    padding: 3rem;
+    h6 {
+        font-size: 1.5rem;
+    }
+    .sec-title {
+        padding: 1rem;
+    }
+    .dc-text {
+        text-align: justify;
+        p {
+            font-size: 0.8rem;
         }
     }
 }

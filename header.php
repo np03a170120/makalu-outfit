@@ -91,31 +91,267 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="single-category.php">Men</a>
                                             <div class="dropdown-nav">
-                                                <ul class="dn">
-                                                    <li><a href="#">Fleece</a></li>
-                                                    <li><a href="#">Jacket</a></li>
-                                                    <li><a href="#">Bottom</a></li>
-                                                    <li><a href="#">Fleece</a></li>
-                                                    <li><a href="#">Jacket</a></li>
-                                                    <li><a href="#">Bottom</a></li>
-                                                    <li><a href="#">Fleece</a></li>
-                                                    <li><a href="#">Jacket</a></li>
-                                                    <li><a href="#">Bottom</a></li>
-
-                                                </ul>
+                                                <div class="dn-section-single">
+                                                    <div class="dn-title">
+                                                        <h3>Jacket & Wear Mens</h3>
+                                                    </div>
+                                                    <ul class="dn">
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="dn-section-single">
+                                                    <div class="dn-title">
+                                                        <h3>Bottoms</h3>
+                                                    </div>
+                                                    <ul class="dn">
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="dn-section-single">
+                                                    <div class="dn-title">
+                                                        <h3>Fleece</h3>
+                                                    </div>
+                                                    <ul class="dn">
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Women</a>
+                                            <div class="dropdown-nav">
+                                                <div class="dn-section-single">
+                                                    <div class="dn-title">
+                                                        <h3>Jacket & Wear</h3>
+                                                    </div>
+                                                    <ul class="dn">
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="dn-section-single">
+                                                    <div class="dn-title">
+                                                        <h3>Bottoms</h3>
+                                                    </div>
+                                                    <ul class="dn">
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="dn-section-single">
+                                                    <div class="dn-title">
+                                                        <h3>Fleece</h3>
+                                                    </div>
+                                                    <ul class="dn">
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Kids</a>
+                                            <div class="dropdown-nav">
+                                                <div class="dn-section-single">
+                                                    <div class="dn-title">
+                                                        <h3>Jacket & Wear</h3>
+                                                    </div>
+                                                    <ul class="dn">
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="dn-section-single">
+                                                    <div class="dn-title">
+                                                        <h3>Bottoms</h3>
+                                                    </div>
+                                                    <ul class="dn">
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="dn-section-single">
+                                                    <div class="dn-title">
+                                                        <h3>Fleece</h3>
+                                                    </div>
+                                                    <ul class="dn">
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Shoes</a>
+                                            <div class="dropdown-nav">
+                                                <div class="dn-section-single">
+                                                    <div class="dn-title">
+                                                        <h3>Jacket & Wear</h3>
+                                                    </div>
+                                                    <ul class="dn">
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="dn-section-single">
+                                                    <div class="dn-title">
+                                                        <h3>Bottoms</h3>
+                                                    </div>
+                                                    <ul class="dn">
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="dn-section-single">
+                                                    <div class="dn-title">
+                                                        <h3>Fleece</h3>
+                                                    </div>
+                                                    <ul class="dn">
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Climbing</a>
+                                            <div class="dropdown-nav">
+                                                <div class="dn-section-single">
+                                                    <div class="dn-title">
+                                                        <h3>Jacket & Wear</h3>
+                                                    </div>
+                                                    <ul class="dn">
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="dn-section-single">
+                                                    <div class="dn-title">
+                                                        <h3>Bottoms</h3>
+                                                    </div>
+                                                    <ul class="dn">
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="dn-section-single">
+                                                    <div class="dn-title">
+                                                        <h3>Fleece</h3>
+                                                    </div>
+                                                    <ul class="dn">
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                        <li><a href="#">Fleece</a></li>
+                                                        <li><a href="#">Jacket</a></li>
+                                                        <li><a href="#">Bottom</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
                                         </li>
                                     </ul>
                                 </div>
@@ -189,8 +425,16 @@
                         </div>
                         <ul class="shop-feature">
                             <li><span class="search_id"><i class="fas fa-search"></i></span></li>
-                            <li><a href="cart-items.php"><i class="fas fa-shopping-cart"></i></a></li>
-                            <li><a href="wishlist.php"><i class="fas fa-heart"></i></a> </li>
+                            <li class="notify"><a href="cart-items.php"><i class="fas fa-shopping-cart"></i></a>
+                                <div class="sf-count">
+                                    <span>10</span>
+                                </div>
+                            </li>
+                            <li class="notify"><a href="wishlist.php"><i class="fas fa-heart"></i></a>
+                                <div class="sf-count">
+                                    <span>10</span>
+                                </div>
+                            </li>
 
                             <!-- <li><a href="login.php"><i class="fas fa-user"></i></a></li>
                             <li><a href="register.php"><i class="fas fa-user"></i></a></li> -->

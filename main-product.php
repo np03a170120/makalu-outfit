@@ -78,7 +78,7 @@
                     <span class="check__reviews">Check Reviews</span>
                 </div>
                 <div class="learn-more">
-                    <a href="#">Add To Cart</a>
+                    <a href="cart-items.php">Add To Cart</a>
                 </div>
             </div>
         </div>
