@@ -1216,3 +1216,18 @@ footer {
         }
     }
 }
+
+.category {
+    .sec-title {
+        h3 {
+            left: 53%;
+            transform: translateX(-50%);
+        }
+        h2 {
+            &::after {
+                width: 3%;
+                left: 45.5%;
+            }
+        }
+    }
+}

@@ -1578,4 +1578,15 @@ footer .mf-brand h2 {
 .dynamic-content .dc-text p {
   font-size: 0.8rem;
 }
+
+.category .sec-title h3 {
+  left: 53%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.category .sec-title h2::after {
+  width: 3%;
+  left: 45.5%;
+}
 /*# sourceMappingURL=main.css.map */

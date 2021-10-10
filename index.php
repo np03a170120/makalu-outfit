@@ -42,7 +42,7 @@
             <h2>categories</h2>
             <h3>categories</h3>
             <div class="show-all">
-                <a href="#">View All</a>
+                <a href="category.php">View All</a>
             </div>
         </div>
 
